@@ -7,32 +7,45 @@
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #67ec9e, #67ec9e);
+    margin: 0;
 }
 
 .container {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 40px 60px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    max-width: 400px; /* Limita a largura máxima da caixa */
+    width: 100%;
+    margin: auto; /* Centraliza a caixa horizontalmente */
 }
 
 .choose-form {
-    text-align: center;
+    text-align: center; /* Centraliza o conteúdo dentro da caixa */
 }
 
 .choose-form h2 {
-    margin-bottom: 40px;
-    color: #fff;
+    margin-bottom: 20px;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
+.submit {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+    justify-content: center; /* Centraliza os botões dentro do formulário */
+}
+
 button {
-    background: #27ae60;
+    background: #1e8449;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -44,3 +57,34 @@ button {
 button:hover {
     background: #1e8449;
 }
+
+
+header {
+    color: #1e8449;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #d1f2eb;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+}
+
