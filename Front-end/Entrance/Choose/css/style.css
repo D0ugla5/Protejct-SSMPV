@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background: linear-gradient(135deg, #67ec9e, #67ec9e);
+    background: linear-gradient(135deg, black, #67ec9e);
     margin: 0;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 button {
-    background: #1e8449;
+    background: black;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -87,4 +87,3 @@ footer {
     text-align: center;
     padding: 8px;
 }
-
