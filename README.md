@@ -4,6 +4,7 @@ In this project back-end and front-end, you'll be able to give interect with oth
 <h1>SSMPV</h1>
 
 <p align="center">
+   Started at 5 november of 2024
    <img src="https://img.shields.io/static/v1?label=STATUS&message=Developing&color=RED&style=for-the-badge" #vitrinedev/>
 </p>
 
