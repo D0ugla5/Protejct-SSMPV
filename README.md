@@ -37,7 +37,7 @@ In this project back-end and front-end, you'll be able to give interect with oth
 ## Installation
 
 ```bash
-$ npm install
+$ npm i -g @nestjs/cli
 ```
 
 ## Running the app
