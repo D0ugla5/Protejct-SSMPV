@@ -1,44 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SS</title>
+    <title>Login Moovsec</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
-    <header>
-        <h1>SS</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <br>
-    <div class="container">
-        <div class="choose-form">
-            <h2>Welcome to SS</h2>
-            <form>
-                <div class="submit">
-                    <button type="submit">Login</button>
-                    <button type="submit">Register</button>
+    <div class="login-container">
+        <div class="login-box">
+            <h1 class="logo">moov<span>sec</span></h1>
+            <p class="subtitle">Acesse a plataforma e inicie a sua experiência com gestão de frotas!</p>
+            <form action="#">
+                <label for="username">Nome de usuário ou chave de acesso</label>
+                <input type="text" id="username" placeholder="admin">
+                
+                <label for="password">Senha</label>
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="********">
+                    <button type="button" class="toggle-password">👁</button>
                 </div>
-                <br>
-                <div class="submit">
-                    <button type="submit">Login with</button>
+                
+                <div class="remember-container">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Lembrar senha</label>
                 </div>
+                
+                <button type="submit" class="btn confirm">Confirmar</button>
+                <button type="button" class="btn recover">Recuperar Senha</button>
             </form>
         </div>
     </div>
-    <br>
-    <footer>
-        <p>&copy; 2024 SS. All rights reserved to Intelbras.</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>

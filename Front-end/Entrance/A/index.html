@@ -3,32 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SS</title>
+    <title>SS Login</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <img src="moov.png" alt="Moovsec icon" width="200px">
-    </header>
-    <div class="container">
-        <div class="choose-form">
-            <h2>SS</h2>
-            <form>
-                <div class="submit">
-                    <button type="submit">Login</button>
-                    <button type="submit">Register</button>
+    <div class="main-content">
+        <div class="left-content">
+            <img src="./images/cars.png" alt="Background image">
+        </div>
+        <div class="right-content">
+            <div class="content-wrapper">
+                <header>
+                </header>
+                <div class="container">
+                    <div class="choose-form">
+                        <div>
+                            <img src="./images/moov.png" alt="Moovsec icon" width="150px">
+                        </div>
+                        <br>
+                        <div>    
+                            <p>Acesse a plataforma e inicie a sua experiência com o compartilhamento de sugestões!</p>
+                        </div>
+                            <form>
+                            <label for="username">Nome ou email</label>
+                            <input type="text" id="username" name="username" required>
+
+                            <label for="password">Senha</label>
+                            <input type="password" id="password" name="password" required>
+
+                            <div class="remember-me">
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="remember">Lembrar senha</label>
+                            </div>
+
+                            <div class="submit">
+                                <button type="submit">Confirmar</button>
+                            </div>
+                            <br>
+                            <div class="submit">
+                                <button type="button">Recuperar Senha</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <br>
-                <div class="submit">
-                    <button type="submit">Login with</button>
-                </div>
-            </form>
+                <footer>
+                    <center>
+                        <img src="./images/IntelB.png" alt="Logo Intelbras branco" width="100px">
+                    </center>
+                </footer>
+            </div>
         </div>
     </div>
-  
-    <footer>
-      <img src="IntelB.png" alt="Logo Intelbras branco">
-    </footer>
-
 </body>
 </html>
