@@ -13,11 +13,11 @@ The MVP of the system consists of the following features:
 This project must be developed using the following technologies: Typescript, NestJS, MongoDB and Docker.
  
 DoD:
-Users can be created (as normal and administrator users).
-Users can be edited;
-Users can be listed;
-Users can be removed;
-Users can perform login;
+Users can be created (as normal and administrator users). not yet
+Users can be edited; not yet
+Users can be listed;not yet
+Users can be removed; not yet
+Users can perform login; 
 Suggestion posts can be created;
 Suggestion posts can be edited;
 Suggestion posts can be voted;
@@ -26,4 +26,7 @@ Suggestion posts can be removed;
 
 
 What do i need to do first?
-The first thing is to create a form of login to access the content, for this i need to create a entrance for my site. So i'm goin to do one in JS, HTML and css just to have a good entrance.
+?/11 The first thing is to create a form of login to access the content, for this i need to create a entrance for my site. So i'm goin to do one in JS, HTML and css just to have a good entrance.
+12/11 So i did a entrance and now i'm atualizating it.
+This is taking long as i did'n know that would take.
+19/11 - i learned how to do a auth but i still need some extras, like cookies and do for real a login, this still doesn't work, i'll need to work in the core of the app also because i didin't nothing from the real form of the app.
