@@ -13,8 +13,6 @@
         </div>
         <div class="right-content">
             <div class="content-wrapper">
-                <header>
-                </header>
                 <div class="container">
                     <div class="choose-form">
                         <div>
@@ -30,12 +28,18 @@
 
                             <label for="password">Senha</label>
                             <input type="password" id="password" name="password" required>
-
+                            
+                            <center>
                             <div class="remember-me">
-                                <input type="checkbox" id="remember" name="remember">
+                                <label class="switch">
+                                    <input type="checkbox" id="remember" name="remember">
+                                    <span class="slider"></span>
+                                </label>
                                 <label for="remember">Lembrar senha</label>
                             </div>
 
+                            </center>
+                            
                             <div class="submit">
                                 <button type="submit">Confirmar</button>
                             </div>
@@ -47,9 +51,7 @@
                     </div>
                 </div>
                 <footer>
-                    <center>
                         <img src="./images/IntelB.png" alt="Logo Intelbras branco" width="100px">
-                    </center>
                 </footer>
             </div>
         </div>

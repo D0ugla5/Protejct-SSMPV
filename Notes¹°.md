@@ -26,7 +26,19 @@ Suggestion posts can be removed;
 
 
 What do i need to do first?
-?/11 The first thing is to create a form of login to access the content, for this i need to create a entrance for my site. So i'm goin to do one in JS, HTML and css just to have a good entrance.
+05/11 The first thing is to create a form of login to access the content, for this i need to create a entrance for my site. So i'm goin to do one in JS, HTML and css just to have a good entrance.
+
 12/11 So i did a entrance and now i'm atualizating it.
 This is taking long as i did'n know that would take.
+
 19/11 - i learned how to do a auth but i still need some extras, like cookies and do for real a login, this still doesn't work, i'll need to work in the core of the app also because i didin't nothing from the real form of the app.
+So i put in my application a Guart, it can be described as a Guardian that take a crucial part of the code and leave it to be only accessed by ADM, a coloquial way to put someone that can do more things in this app.
+
+21/11 - Probably my last presencial day in Intelbras, i just wish would be diferent, but it is what is.
+In this day i wanna try to make the app works, as it should, for this i need to:
+-See if the registration is very connected with every part;
+-Check if every funcionality make sense in the porpose of sending a user, e-mail and a password (RGN is not going any were, giving a 404 error that means that the app may not be very directioned to were sould be);
+-Check if the app have a way/path to go into my db, if i solve the oder problems it should work as i thing is.
+
+Atualizações: 
+The sistem is officially started to working as it should, i'm happy
